@@ -1,0 +1,115 @@
+@font-face {
+  font-family: 'Apercu';
+  font-style: normal;
+  src:
+    local('Apercu'),
+    local('Apercu Pro Regular'),
+    url('https://ml5js.github.io/ml5-homepage-demo/css/ApercuRegular.ttf') format('truetype');
+    /* Use the following link if running locally */
+    /* url('/css/ApercuRegular.ttf') format('truetype'); */
+}
+
+@font-face {
+  font-family: 'Apercu Bold';
+  font-style: bold;
+  src:
+    local('Apercu Pro Regular'),
+    url('https://ml5js.github.io/ml5-homepage-demo/css/ApercuBold.ttf') format('truetype');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Apercu;
+}
+
+#image {
+  max-height: 300px;
+  max-width: 90%;
+}
+
+#container {
+  height: 500px;
+  padding: 50px;
+  font-size: 14px;
+  border-radius: 33px;
+}
+
+#text-container {
+  height: 100px;
+  width: 100%;
+  text-align: center;
+}
+
+#instruction {
+  margin-top: 20px;
+}
+
+.result-color {
+  color: #A159FC;
+}
+
+.green-color {
+  color: #0bcf82;
+}
+
+.highlight {
+  opacity: 0.4;
+  background-color: rgba(161,89,252, 0.2) !important;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#fileUploader {
+  opacity: 0;
+}
+
+#uploader-btn {
+  background: white;
+  margin-top: 1em;
+  color: #0bcf81;
+  border: solid 4px #8c1aff;
+  padding: .6em 2em;
+  line-height: 2;
+  font-size: 16px;
+  font-family: Apercu;
+  cursor: pointer;
+  border-radius: 10px;
+  width: 42%;
+  height: 60px;
+  color: #8c1aff;
+}
+#image {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#uploader-btn:hover {
+  color: white;
+  background-color: #8c1aff;
+  border: solid 1px #8c1aff;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#ml5_image {
+  height: 50px;
+  width : 80px;
+  margin-top: 6px;
+}
+#center_design {
+  background: white;
+  width: 40%;
+  float: center;
+  height: 630px;
+  margin-top: 40px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#heading {
+  margin-top: 50px;
+  color: #8c1aff;
+}

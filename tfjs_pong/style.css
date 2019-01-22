@@ -1,0 +1,21 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+#container {
+    float: right;
+    margin-top: 200px;
+    margin-right: 20%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 40%;
+    height: 200px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+
+}
+#playing {
+    color: blue;
+}
+#ref_head {
+    margin-left: 30px;
+}
