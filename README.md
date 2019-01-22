@@ -20,3 +20,9 @@ the dataset for training is provide within the folder.
 
 Tensorflow.js & chart.js are used to perform the linear regression & plot the 
 best fit line in the graph.
+
+For Reference & Documentation:
+
+* Tensorflow.js  ->  https://js.tensorflow.org/
+
+* ML5.js         ->  https://ml5js.org/
